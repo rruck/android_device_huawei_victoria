@@ -19,7 +19,7 @@ set -e
 
 # Required!
 export DEVICE=victoria
-export DEVICE_COMMON=kirin960-common
+export DEVICE_COMMON=device_huawei_kirin960-common
 export VENDOR=huawei
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
